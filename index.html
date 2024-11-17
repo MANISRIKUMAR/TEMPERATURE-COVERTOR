@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- SEO Meta Tags -->
+<meta name="description" content="Dynamic Temperature Converter: Convert Celsius, Fahrenheit, Kelvin, and Rankine effortlessly. Accurate and easy-to-use online tool.">
+<meta name="keywords" content="Temperature Converter, Celsius to Fahrenheit, Kelvin to Celsius, Rankine Converter, Online Temperature Tool, Free Temperature Conversion">
+<meta name="author" content="Your Name">
+
+</head>
+<body>
+    <form> 
+        <h1>Dynamic Temperature Converter</h1>
+        <label for="tb">Enter Temperature:</label>
+        <input type="number" id="tb" value="0" placeholder="Enter temperature"><br>
+
+        <label for="fromUnit">From:</label>
+        <select id="fromUnit">
+            <option value="C">Celsius (C)</option>
+            <option value="F">Fahrenheit (F)</option>
+            <option value="K">Kelvin (K)</option>
+            <option value="R">Rankine (R)</option>
+        </select>
+
+        <label for="toUnit">To:</label>
+        <select id="toUnit">
+            <option value="C">Celsius (C)</option>
+            <option value="F">Fahrenheit (F)</option>
+            <option value="K">Kelvin (K)</option>
+            <option value="R">Rankine (R)</option>
+        </select><br><br>
+
+        <button type="button" id="button">Convert</button>
+        <p id="res"></p>
+    </form>
+    <section id="didYouKnow">
+        <h2>Did You Know?</h2>
+        <p id="fact">Celsius is named after Anders Celsius, a Swedish astronomer!</p>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
